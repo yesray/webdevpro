@@ -1,0 +1,18 @@
+.who {
+    position: relative;
+    margin: 50px;
+    height: 800px;
+    width: auto;
+}
+
+.who__content {
+    text-align: center;
+}
+
+.who__content h1 {
+    font-size: 50px;
+}
+
+.who__content {
+    font-size: 80px;
+}
