@@ -1,8 +1,7 @@
 .who {
     position: relative;
-    margin: 50px;
-    height: 800px;
-    width: auto;
+    margin: 10%;
+
 }
 
 .who__content {
@@ -13,6 +12,6 @@
     font-size: 50px;
 }
 
-.who__content {
-    font-size: 80px;
+.who__content p {
+    font-size: 30px;
 }

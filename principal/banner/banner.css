@@ -28,4 +28,12 @@
     flex-direction: column;
     justify-content: center;
     align-content: center;
+} 
+
+.banner__content h2 {
+    font-size: 60px;
+}
+
+.banner__content h1 {
+    font-size: 20px;
 }
