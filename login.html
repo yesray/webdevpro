@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./css/inicio/login.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="form__container register">
+        <div class="general__information">
+            <div class="information">
+                <h2>Bienvenido</h2>
+                <p>Entra a esta pagina web para entrar en el mundo del arte</p>
+                <input type="button" value="iniciar sesion" id="sign-in">
+            </div>
+        </div>
+        <div class="form__information">
+            <div class="form__information-info">
+                <h2>Crea una cuenta</h2>
+                <div class="icons">
+                    <i class='bx bxl-google'></i>
+                    <i class='bx bxl-github'></i>
+                    <i class='bx bxl-facebook'></i>
+                </div>
+                <p>Si no tienes ninguno de estos usa tu gmail</p>
+                <form class="form">
+                    <label>
+                        <i class='bx bx-user' ></i>
+                        <input type="text" placeholder="Nombre completo">
+                    </label>
+                    <label>
+                        <i class='bx bx-user' ></i>
+                        <input type="text" placeholder="Apellido Completo">
+                    </label>
+                    <label>
+                        <i class='bx bx-envelope' ></i>
+                        <input type="email" placeholder="Registra tu gmail">
+                    </label>
+                    <label>
+                        <i class='bx bx-lock-alt' ></i>
+                        <input type="password" placeholder="Contraseña">
+                    </label>
+                    <label>
+                        <input type="submit" value="Registrarse">
+                    </label>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="form__container login hide">
+        <div class="general__information">
+            <div class="information">
+                <h2>Te tenemos de vuelta!</h2>
+                <p>Sigue experimentando en nuestor bello mundo del arte</p>
+                <input type="button" value="Registrate" id="sign-up">
+            </div>
+        </div>
+        <div class="form__information">
+            <div class="form__information-info">
+                <h2>Inicia Sesion</h2>
+                <div class="icons">
+                    <i class='bx bxl-google'></i>
+                    <i class='bx bxl-github'></i>
+                    <i class='bx bxl-facebook'></i>
+                </div>
+                <p>o inicia con una cuenta</p>
+                <form class="form">
+                    <label>
+                        <i class='bx bx-envelope' ></i>
+                        <input type="email" placeholder="Registra tu gmail">
+                    </label>
+                    <label>
+                        <i class='bx bx-lock-alt' ></i>
+                        <input type="password" placeholder="Contraseña">
+                    </label>
+                    <label>
+                        <input type="submit" value="Iniciar Sesion">
+                    </label>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="./js/login.js"></script>
+</body>
+</html>
